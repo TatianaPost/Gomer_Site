@@ -1,0 +1,7 @@
+{
+  "name": "Gomer_project_Egorov",
+  "devDependencies": {
+    "browser-sync": "^2.24.4",
+    "gulp": "^3.9.1"
+  }
+}
