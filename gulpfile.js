@@ -1,4 +1,4 @@
-var gulp = require("gulp"),
+var gulp = require("gulp");
     browserSync = require("browser-sync");
 
 gulp.task('server', function () {
@@ -9,12 +9,11 @@ gulp.task('server', function () {
     }
   });
 });
-
 gulp.task('watch', function() {
   gulp.watch([
     'app/*.html',
     'app/js/**/*/.js',
-    'app/css/**/*.css'
+      'app/css/**/*.css'
   ]).on('change', browserSync.reload);
 });
 

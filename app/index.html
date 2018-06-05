@@ -14,37 +14,88 @@
   <!-- BOWER CSS -->
   <link rel="stylesheet" href="./bower/normalize.css/normalize.css">
   <!-- CSS -->
+  <!-- fonts -->
+  <link rel="stylesheet" href="./css/fonts.css">
+  <!-- pages -->
   <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/about-me.css">
   <!-- MODERNIZER -->
   <script src="./bower/modernizer/modernizr.js"></script>
 </head>
 <body>
-  <!--[if lt IE 8]>
-      <p class="chromeframe">Похоже, что ты используешь
-      устаревший браузер, друг. Пожалуйста, <a href="http://
-      browsehappy.com/">скачай новый браузер абсолютно
-      бесплатно</a> или <a href="http://www.google.com/
-      chromeframe/?redirect=true">активируй Google Chrome Frame</
-      a></p>
-      <![endif]-->
-      <div class="wrapper">
-        <div class="main-content">
-          <header class="header">
-            <div class="container-big"></div>
-          </header>
+<!--[if lt IE 8]>
+<p class="chromeframe">Похоже, что ты используешь
+    устаревший браузер, друг. Пожалуйста,
+    <a href="http://
+    browsehappy.com/">скачай новый браузер абсолютно
+    бесплатно
+    </a>
+    или
+    <a href="http://www.google.com/chromeframe/?redirect=true">активируй Google Chrome Frame
+    </a>
+<!--</p>-->
+<!--[endif]-->
+  <div class="wrapper">
+    <div class="main-content">
+      <header class="header">
+        <div class="container">
+            <div class="header__logo">
+                <a href="" class="header__logo-link">
+                    <img src="./img/logo@pl.png" alt="Logo">
+                </a>
+            </div>
+            <div class="social-icons">
+                <ul class="social__list">
+                    <li class="social__item">
+                        <a class="social__link vk" href=""></a>
+                    </li>
+                    <li class="social__item">
+                        <a class="social__link tw" href=""></a>
+                    </li>
+                    <li class="social__item">
+                        <a class="social__link fb" href=""></a>
+                    </li>
+                    <li class="social__item">
+                        <a class="social__link gh" href=""></a>
+                    </li>
+                </ul>
+            </div>
         </div>
+      </header>
+      <div class="container">
+        <aside class="sidebar">
+          <nav class="nav">
+            <ul class="nav__list">
+              <li class="nav__item current">
+                  <a class="nav__link" href="">Обо мне</a></li>
+              <li class="nav__item">
+                  <a class="nav__link" href="">Мои работы</a></li>
+              <li class="nav__item">
+                  <a class="nav__link" href="">Связаться со мной</a></li>
+            </ul>
+          </nav>
+          <address class="contacts">
+              Контакты
+              <ul class="contacts__list">
+                  <li class="contacts__item">Email:</li>
+                  <li class="contacts__item">Phone:</li>
+              </ul>
+          </address>
+        </aside>
       </div>
-      <footer class="footer">
-        <div class="footer__container">
-          <div class="footer__lock">
-            <a class="lock__inner" href="#">Войти</a>
-          </div>
-          <div class="footer__copyright">
-            &copy; 2018, Это сайт Гомера Симпсона, Пожалуйста не копируйте его и не воруйте его.
-          </div>
-        </div>
-      </footer>
-      <script src="./bower/jquery/dist/jquery.min.js"></script>
-      <script src="./js/main.js"></script>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="footer__lock">
+        <a class="lock__inner" href="#">Войти</a>
+      </div>
+      <div class="footer__copyright">
+        &copy; 2018, Это сайт Гомера Симпсона, Пожалуйста не копируйте его и не воруйте его.
+      </div>
+    </div>
+  </footer>
+  <script src="./bower/jquery/dist/jquery.min.js"></script>
+  <script src="./js/main.js"></script>
 </body>
 </html>
